@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel Test Methods">
+
+<!--    <test name="TestAutomation_Tasks" parallel="methods" thread-count="2">-->
+    <test name="TestAutomation_Tasks" >
+        <classes>
+            <class name="com.tasks.gui.testCases.Google_Test"/>
+            <!--            <class name="com.tasks.gui.testCases.TestAutomationU_Test"/>-->
+            <class name="com.tasks.gui.testCases.W3schools_Test"/>
+
+        </classes>
+    </test>
+</suite>

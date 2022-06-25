@@ -1,76 +1,55 @@
 # https://github.com/SeleniumHQ/docker-selenium
-# Set ExecutionPlatform.properties ,  "localhost:4444" , "Linux-64" and "headlessExecution"
-# Set TestNG.properties , "setParallel" and "setThreadCount".
-# Set Reporting.properties , "disable" generate Report. After Execution You should open the report manually from"generate_allure_report.bat".
-# To execute this docker-compose yml file use `docker-compose -f docker-compose.yml up --scale chrome=4 --scale edge=0 --scale firefox=0 --remove-orphans`
-# Add the `-d` flag at the end for detached execution and docker Log
-# Open http://localhost:4444/grid/console to see the actions
-# To stop the execution, hit Ctrl+C, and then `docker-compose -f docker-compose.yml down --remove-orphans -d`
+# docker desktop can run this -f  file.yml
 
-version: '3.7'
+# To execute this docker-compose yml file use >> open terminal and type command line>>
 
+#  `docker-compose -f docker-compose.yml up --scale chrome=4 -d`
+
+#   up = run yml file and open node , --scale = nodeName numberOfNode
+#   stop execution = hit Ctrl+C , down = stop node and remove containers , --remove-orphans = remove containers if they are not running
+#   -d = detached execution selenium grid logs
+
+# `docker-compose restart` = deletes the previous containers and spins up brand new ones!
+#  `docker-compose down`
+#  `docker ps -a` = no containers are up or running anymore!
+# Open >> http://localhost:4444/grid/console
+#   Set ExecutionPlatform from `project.properties` , "localhost:4444" , "Linux-64"
+
+version: "3"
 services:
   selenium-hub:
-
-    image: selenium/hub:3.141.59-20200515
-
+#        image: selenium/hub:3.141.59-20200515
+    image: selenium/hub:4.1.4
+#    container_name: selenium-hub
     ports:
-      - 4444:4444
-
+      - "4442:4442"
+      - "4443:4443"
+      - "4444:4444"
     environment:
-
-      GRID_MAX_SESSION: 5
+      GRID_MAX_SESSION: 10
       GRID_BROWSER_TIMEOUT: 300
       GRID_TIMEOUT: 300
 
   chrome:
-    image: selenium/node-chrome:3.141.59-20200515
-
+#        image: selenium/node-chrome:3.141.59-20200515
+    image: selenium/node-chrome:4.1.4
     depends_on:
       - selenium-hub
-
     shm_size: 2gb
     volumes:
-
       - /dev/shm:/dev/shm
+
     environment:
-      HUB_HOST: selenium-hub
-      HUB_PORT: 4444
-      SCREEN_WIDTH: 1920
-      SCREEN_HEIGHT: 1080
+      SE_EVENT_BUS_HOST: selenium-hub
+      SE_EVENT_BUS_PUBLISH_PORT: 4442
+      SE_EVENT_BUS_SUBSCRIBE_PORT: 4443
       # set false for headless execution
       START_XVFB: "false"
-      NODE_MAX_SESSION: 1
-      NODE_MAX_INSTANCES: 1
+      NODE_MAX_SESSION: 4
+      NODE_MAX_INSTANCES: 4
 
-#   firefox:
-
-#      image: selenium/node-firefox:3.141.59-20200515
-
-#      depends_on:
-
-#      - selenium-hub
-
-#      shm_size: 2gb
-
-#      volumes:
-
-#      - /dev/shm:/dev/shm
-
-#      environment:
-
-#         HUB_HOST: selenium-hub
-
-#         HUB_PORT: 4444
-
-#         SCREEN_WIDTH: 1920
-
-#         SCREEN_HEIGHT: 1080
-
-## set false for headless execution
-
-#         START_XVFB: "false"
-
-#         NODE_MAX_SESSION: 1
-
-#         NODE_MAX_INSTANCES: 1
+#    environment:
+#      HUB_PORT_4444_TCP_ADDR: selenium-hub
+#      HUB_PORT_4444_TCP_PORT: 4444
+#      NODE_MAX_SESSION: 4
+#      NODE_MAX_INSTANCES: 4
