@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 8" test cases in the current suite
+Test Method:		"Google_Test.SearchAndGetResultByText"
+################################################################################################################################################
+[ReportManager] Target URL: "https://www.google.com/" @25-06-2022 18:36:05.0541 PM
+[ReportManager] Initial URL: "data:," @25-06-2022 18:36:05.0777 PM
+[ReportManager] Navigate to url "https://www.google.com/". @25-06-2022 18:36:07.0458 PM
+[ReportManager] Type "Selenium WebDriver". @25-06-2022 18:36:08.0263 PM
+[ReportManager] Key press "ENTER". @25-06-2022 18:36:09.0598 P

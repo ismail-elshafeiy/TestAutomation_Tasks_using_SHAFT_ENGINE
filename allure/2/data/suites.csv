@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat Jun 25 18:36:10 GMT 2022","Sat Jun 25 18:36:38 GMT 2022","28006","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed",""
+"skipped","Sat Jun 25 18:39:48 GMT 2022","Sat Jun 25 18:39:48 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifySearchResults","verifySearchResults",""
+"passed","Sat Jun 25 18:36:41 GMT 2022","Sat Jun 25 18:36:48 GMT 2022","6826","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Search for [Selenium WebDriver]
+Assert that the text of the first result is [Selenium - Web Browser Automation]
+Close Google Chrome
+"
+"skipped","Sat Jun 25 18:39:48 GMT 2022","Sat Jun 25 18:39:48 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","Open Mozilla Firefox
+Navigate to [https://www.google.com/]
+Search for [TestNG]
+Assert that the text of the fourth result is [TestNG Tutorial]
+Close Mozilla Firefox
+"
+"passed","Sat Jun 25 18:36:05 GMT 2022","Sat Jun 25 18:36:09 GMT 2022","4114","Suite","Test","Google_Test","Google_Test","SearchAndGetResultByText","SearchAndGetResultByText",""
+"failed","Sat Jun 25 18:39:48 GMT 2022","Sat Jun 25 18:39:48 GMT 2022","0","Suite","Test","Google_Test","Google_Test","setUp_BeforeMethods","setUp_BeforeMethods",""
+"skipped","Sat Jun 25 18:39:48 GMT 2022","Sat Jun 25 18:39:48 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifyCountryIsEqual","verifyCountryIsEqual",""
+"passed","Sat Jun 25 18:36:39 GMT 2022","Sat Jun 25 18:36:40 GMT 2022","1537","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle",""
+"skipped","Sat Jun 25 18:39:48 GMT 2022","Sat Jun 25 18:39:48 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen",""
+"unknown","Sat Jun 25 18:36:02 GMT 2022","Sat Jun 25 18:36:02 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchBy_text_and_index_list","searchBy_text_and_index_list",""
