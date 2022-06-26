@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Sun Jun 26 12:53:27 GMT 2022","Sun Jun 26 12:53:27 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen",""
+"passed","Sun Jun 26 12:50:17 GMT 2022","Sun Jun 26 12:50:18 GMT 2022","1608","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle",""
+"passed","Sun Jun 26 12:50:14 GMT 2022","Sun Jun 26 12:50:16 GMT 2022","1739","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed",""
+"passed","Sun Jun 26 12:50:19 GMT 2022","Sun Jun 26 12:50:27 GMT 2022","7507","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Search for [Selenium WebDriver]
+Assert that the text of the first result is [Selenium - Web Browser Automation]
+Close Google Chrome
+"
+"skipped","Sun Jun 26 12:53:27 GMT 2022","Sun Jun 26 12:53:27 GMT 2022","2","Suite","Test","Google_Test","Google_Test","verifySearchResults","verifySearchResults",""
+"skipped","Sun Jun 26 12:53:27 GMT 2022","Sun Jun 26 12:53:27 GMT 2022","9","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","Open Mozilla Firefox
+Navigate to [https://www.google.com/]
+Search for [TestNG]
+Assert that the text of the fourth result is [TestNG Tutorial]
+Close Mozilla Firefox
+"
+"unknown","Sun Jun 26 12:50:06 GMT 2022","Sun Jun 26 12:50:06 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchBy_text_and_index_list","searchBy_text_and_index_list",""
+"passed","Sun Jun 26 12:50:09 GMT 2022","Sun Jun 26 12:50:13 GMT 2022","3664","Suite","Test","Google_Test","Google_Test","SearchAndGetResultByText","SearchAndGetResultByText",""
+"skipped","Sun Jun 26 12:53:27 GMT 2022","Sun Jun 26 12:53:27 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifyCountryIsEqual","verifyCountryIsEqual",""
+"failed","Sun Jun 26 12:53:27 GMT 2022","Sun Jun 26 12:53:27 GMT 2022","1","Suite","Test","Google_Test","Google_Test","setUp_BeforeMethods","setUp_BeforeMethods",""
