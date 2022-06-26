@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Jun 26 18:38:50 GMT 2022","Sun Jun 26 18:38:50 GMT 2022","1","Suite","Test","Google_Test","Google_Test","setUp_BeforeMethods","setUp_BeforeMethods",""
+"passed","Sun Jun 26 18:35:38 GMT 2022","Sun Jun 26 18:35:40 GMT 2022","2005","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle",""
+"passed","Sun Jun 26 18:35:29 GMT 2022","Sun Jun 26 18:35:34 GMT 2022","4866","Suite","Test","Google_Test","Google_Test","SearchAndGetResultByText","SearchAndGetResultByText",""
+"skipped","Sun Jun 26 18:38:50 GMT 2022","Sun Jun 26 18:38:50 GMT 2022","2","Suite","Test","Google_Test","Google_Test","verifySearchResults","verifySearchResults",""
+"skipped","Sun Jun 26 18:38:50 GMT 2022","Sun Jun 26 18:38:50 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen",""
+"passed","Sun Jun 26 18:35:35 GMT 2022","Sun Jun 26 18:35:37 GMT 2022","1996","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed",""
+"passed","Sun Jun 26 18:35:41 GMT 2022","Sun Jun 26 18:35:50 GMT 2022","8808","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Search for [Selenium WebDriver]
+Assert that the text of the first result is [Selenium - Web Browser Automation]
+Close Google Chrome
+"
+"unknown","Sun Jun 26 18:35:25 GMT 2022","Sun Jun 26 18:35:25 GMT 2022","3","Suite","Test","Google_Test","Google_Test","searchBy_text_and_index_list","searchBy_text_and_index_list",""
+"skipped","Sun Jun 26 18:38:50 GMT 2022","Sun Jun 26 18:38:50 GMT 2022","12","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","Open Mozilla Firefox
+Navigate to [https://www.google.com/]
+Search for [TestNG]
+Assert that the text of the fourth result is [TestNG Tutorial]
+Close Mozilla Firefox
+"
+"skipped","Sun Jun 26 18:38:50 GMT 2022","Sun Jun 26 18:38:50 GMT 2022","3","Suite","Test","Google_Test","Google_Test","verifyCountryIsEqual","verifyCountryIsEqual",""
