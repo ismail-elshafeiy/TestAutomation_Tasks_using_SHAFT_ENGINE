@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 27 02:34:07 GMT 2022","Mon Jun 27 02:34:11 GMT 2022","4136","Suite","Test","Google_Test","Google_Test","SearchAndGetResultByText","SearchAndGetResultByText",""
+"failed","Mon Jun 27 02:37:24 GMT 2022","Mon Jun 27 02:37:24 GMT 2022","1","Suite","Test","Google_Test","Google_Test","setUp_BeforeMethods","setUp_BeforeMethods",""
+"passed","Mon Jun 27 02:34:17 GMT 2022","Mon Jun 27 02:34:24 GMT 2022","6834","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Search for [Selenium WebDriver]
+Assert that the text of the first result is [Selenium - Web Browser Automation]
+Close Google Chrome
+"
+"unknown","Mon Jun 27 02:34:04 GMT 2022","Mon Jun 27 02:34:04 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchBy_text_and_index_list","searchBy_text_and_index_list",""
+"skipped","Mon Jun 27 02:37:24 GMT 2022","Mon Jun 27 02:37:24 GMT 2022","11","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","Open Mozilla Firefox
+Navigate to [https://www.google.com/]
+Search for [TestNG]
+Assert that the text of the fourth result is [TestNG Tutorial]
+Close Mozilla Firefox
+"
+"skipped","Mon Jun 27 02:37:24 GMT 2022","Mon Jun 27 02:37:24 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifySearchResults","verifySearchResults",""
+"passed","Mon Jun 27 02:34:12 GMT 2022","Mon Jun 27 02:34:14 GMT 2022","1825","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed",""
+"passed","Mon Jun 27 02:34:15 GMT 2022","Mon Jun 27 02:34:16 GMT 2022","1535","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle",""
+"skipped","Mon Jun 27 02:37:24 GMT 2022","Mon Jun 27 02:37:24 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen",""
+"skipped","Mon Jun 27 02:37:24 GMT 2022","Mon Jun 27 02:37:24 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifyCountryIsEqual","verifyCountryIsEqual",""

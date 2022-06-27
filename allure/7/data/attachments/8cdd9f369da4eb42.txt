@@ -1,0 +1,21 @@
+
+################################################################################################################################################
+Starting Execution:	"4 out of 8" test cases in the current suite
+Test Method:		"Google_Test.searchAndGetFirstResult"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @27-06-2022 02:34:17.0844 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @27-06-2022 02:34:17.0844 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @27-06-2022 02:34:19.0581 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @27-06-2022 02:34:19.0581 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @27-06-2022 02:34:19.0600 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @27-06-2022 02:34:19.0600 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @27-06-2022 02:34:19.0616 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @27-06-2022 02:34:19.0616 AM
+[ReportManager] Target URL: "https://www.google.com/" @27-06-2022 02:34:19.0632 AM
+[ReportManager] Initial URL: "data:," @27-06-2022 02:34:19.0881 AM
+[ReportManager] Navigate to url "https://www.google.com/". @27-06-2022 02:34:21.0243 AM
+[ReportManager] Type "Selenium WebDriver". @27-06-2022 02:34:21.0982 AM
+[ReportManager] Click "By.xpath: (//li[@role='presentation'])[1]". @27-06-2022 02:34:23.0584 AM
+[ReportManager] Get text "WebDriver - Selenium". @27-06-2022 02:34:23.0788 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: (//div[@data-header-feature=0]//h3)[1]" text contains "WebDriver - Selenium". @27-06-2022 02:34:24.0648 AM
+[ReportManager] Successfully created attachment "Screenshot - 1656297264439_searchAndGetFirstResult_ValidateElementAttribute_passed" @27-06-2022 02:34:24.0673 A
