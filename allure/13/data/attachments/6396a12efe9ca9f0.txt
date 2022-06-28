@@ -1,0 +1,118 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: "SHAFT Engine v6.2.20220624"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:01:54.0742 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:01:54.0742 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:01:54.0743 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/google_testData/google.json". @28-06-2022 13:01:54.0744 PM
+[ReportManager] Successfully created attachment "Test Data - JSON" @28-06-2022 13:01:54.0746 P
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @28-06-2022 13:01:54.0761 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @28-06-2022 13:01:54.0762 PM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @28-06-2022 13:01:54.0781 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @28-06-2022 13:01:54.0786 PM
+[ReportManager] Successfully Opened "GoogleChrome". @28-06-2022 13:01:57.0634 P
+
+################################################################################################################################################
+Starting Execution:	"1 out of 8" test cases in the current suite
+Test Method:		"Google_Test.SearchAndGetResultByText"
+################################################################################################################################################
+[ReportManager] Target URL: "https://www.google.com/" @28-06-2022 13:01:57.0887 PM
+[ReportManager] Initial URL: "data:," @28-06-2022 13:01:58.0102 PM
+[ReportManager] Navigate to url "https://www.google.com/". @28-06-2022 13:01:59.0638 PM
+[ReportManager] Type "Selenium WebDriver". @28-06-2022 13:02:00.0738 PM
+[ReportManager] Key press "ENTER". @28-06-2022 13:02:02.0246 P
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @28-06-2022 13:02:02.0278 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @28-06-2022 13:02:02.0278 PM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @28-06-2022 13:02:02.0280 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @28-06-2022 13:02:02.0281 PM
+[ReportManager] Successfully Opened "GoogleChrome". @28-06-2022 13:02:02.0960 P
+
+################################################################################################################################################
+Starting Execution:	"2 out of 8" test cases in the current suite
+Test Method:		"Google_Test.checkGoogleLogoIsDisplayed"
+################################################################################################################################################
+[ReportManager] Target URL: "https://www.google.com/" @28-06-2022 13:02:03.0109 PM
+[ReportManager] Initial URL: "data:," @28-06-2022 13:02:03.0242 PM
+[ReportManager] Navigate to url "https://www.google.com/". @28-06-2022 13:02:04.0474 PM
+[ReportManager] Is element displayed. @28-06-2022 13:02:04.0890 P
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @28-06-2022 13:02:04.0913 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @28-06-2022 13:02:04.0913 PM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @28-06-2022 13:02:04.0914 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @28-06-2022 13:02:04.0914 PM
+[ReportManager] Successfully Opened "GoogleChrome". @28-06-2022 13:02:05.0647 P
+
+################################################################################################################################################
+Starting Execution:	"3 out of 8" test cases in the current suite
+Test Method:		"Google_Test.checkPageTitle"
+################################################################################################################################################
+[ReportManager] Target URL: "https://www.google.com/" @28-06-2022 13:02:05.0799 PM
+[ReportManager] Initial URL: "data:," @28-06-2022 13:02:05.0934 PM
+[ReportManager] Navigate to url "https://www.google.com/". @28-06-2022 13:02:07.0174 PM
+[ReportManager] Get current url "https://www.google.com/". @28-06-2022 13:02:07.0258 PM
+[ReportManager] Get current window title "Google". @28-06-2022 13:02:07.0336 PM
+[ReportManager] Get current window title "Google". @28-06-2022 13:02:07.0467 P
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @28-06-2022 13:02:07.0478 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @28-06-2022 13:02:07.0478 PM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @28-06-2022 13:02:07.0479 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @28-06-2022 13:02:07.0479 PM
+[ReportManager] Successfully Opened "GoogleChrome". @28-06-2022 13:02:08.0248 P
+
+################################################################################################################################################
+Starting Execution:	"4 out of 8" test cases in the current suite
+Test Method:		"Google_Test.searchAndGetFirstResult"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:02:08.0390 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:02:08.0390 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:02:10.0274 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:02:10.0274 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:02:10.0293 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:02:10.0294 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:02:10.0310 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @28-06-2022 13:02:10.0310 PM
+[ReportManager] Target URL: "https://www.google.com/" @28-06-2022 13:02:10.0326 PM
+[ReportManager] Initial URL: "data:," @28-06-2022 13:02:10.0499 PM
+[ReportManager] Navigate to url "https://www.google.com/". @28-06-2022 13:02:12.0099 PM
+[ReportManager] Type "Selenium WebDriver". @28-06-2022 13:02:12.0879 PM
+[ReportManager] Click "By.xpath: (//li[@role='presentation'])[1]". @28-06-2022 13:02:14.0489 PM
+[ReportManager] Get text "WebDriver - Selenium". @28-06-2022 13:02:14.0752 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: (//div[@data-header-feature=0]//h3)[1]" text contains "WebDriver - Selenium". @28-06-2022 13:02:15.0610 PM
+[ReportManager] Successfully created attachment "Screenshot - 1656421335392_searchAndGetFirstResult_ValidateElementAttribute_passed" @28-06-2022 13:02:15.0636 P
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @28-06-2022 13:02:15.0645 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @28-06-2022 13:02:15.0645 PM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @28-06-2022 13:02:15.0645 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @28-06-2022 13:02:15.0646 PM
+[ReportManager] An Exception Occured with this Message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.. @28-06-2022 13:05:15.0679 PM
+[ReportManager] Successfully created attachment "Exception Stack Trace - org.openqa.selenium.SessionNotCreatedException" @28-06-2022 13:05:15.0684 PM
+[ReportManager] Failed to run remotely on: "Linux-64", "GoogleChrome", "http://localhost:4444/wd/hub". @28-06-2022 13:05:15.0686 PM
+[ReportManager] An Exception Occured with this Message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.. @28-06-2022 13:05:15.0688 PM
+[ReportManager] Successfully created attachment "Exception Stack Trace - org.openqa.selenium.SessionNotCreatedException" @28-06-2022 13:05:15.0689 P
+
+
+################################################################################################################################################
+Starting Execution:	"5 out of 8" test cases in the current suite
+Test Method:		"Google_Test.searchForFourthResult"
+###############################################################################################################################################
+
+
+################################################################################################################################################
+Starting Execution:	"6 out of 8" test cases in the current suite
+Test Method:		"Google_Test.searchForSecondResultAndOpen"
+###############################################################################################################################################
+
+
+################################################################################################################################################
+Starting Execution:	"7 out of 8" test cases in the current suite
+Test Method:		"Google_Test.verifyCountryIsEqual"
+###############################################################################################################################################
+
+
+################################################################################################################################################
+Starting Execution:	"8 out of 8" test cases in the current suite
+Test Method:		"Google_Test.verifySearchResults"
+###############################################################################################################################################
+[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log" @28-06-2022 13:05:16.0943 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.2.20220624"
+SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
