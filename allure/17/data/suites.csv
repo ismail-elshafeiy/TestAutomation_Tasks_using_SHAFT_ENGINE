@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"unknown","Wed Jun 29 13:01:54 GMT 2022","Wed Jun 29 13:01:54 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchBy_text_and_index_list","searchBy_text_and_index_list",""
+"skipped","Wed Jun 29 13:05:14 GMT 2022","Wed Jun 29 13:05:14 GMT 2022","4","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen",""
+"failed","Wed Jun 29 13:05:14 GMT 2022","Wed Jun 29 13:05:14 GMT 2022","1","Suite","Test","Google_Test","Google_Test","setUp_BeforeMethods","setUp_BeforeMethods",""
+"passed","Wed Jun 29 13:02:04 GMT 2022","Wed Jun 29 13:02:06 GMT 2022","1683","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle",""
+"passed","Wed Jun 29 13:02:02 GMT 2022","Wed Jun 29 13:02:03 GMT 2022","1959","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed",""
+"passed","Wed Jun 29 13:01:57 GMT 2022","Wed Jun 29 13:02:01 GMT 2022","4004","Suite","Test","Google_Test","Google_Test","SearchAndGetResultByText","SearchAndGetResultByText",""
+"skipped","Wed Jun 29 13:05:14 GMT 2022","Wed Jun 29 13:05:14 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifySearchResults","verifySearchResults",""
+"skipped","Wed Jun 29 13:05:14 GMT 2022","Wed Jun 29 13:05:14 GMT 2022","8","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","Open Mozilla Firefox
+Navigate to [https://www.google.com/]
+Search for [TestNG]
+Assert that the text of the fourth result is [TestNG Tutorial]
+Close Mozilla Firefox
+"
+"skipped","Wed Jun 29 13:05:14 GMT 2022","Wed Jun 29 13:05:14 GMT 2022","2","Suite","Test","Google_Test","Google_Test","verifyCountryIsEqual","verifyCountryIsEqual",""
+"passed","Wed Jun 29 13:02:07 GMT 2022","Wed Jun 29 13:02:14 GMT 2022","7277","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Search for [Selenium WebDriver]
+Assert that the text of the first result is [Selenium - Web Browser Automation]
+Close Google Chrome
+"
