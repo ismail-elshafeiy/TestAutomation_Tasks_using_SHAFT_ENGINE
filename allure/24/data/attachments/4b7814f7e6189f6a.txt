@@ -1,0 +1,11 @@
+
+################################################################################################################################################
+Starting Execution:	"3 out of 8" test cases in the current suite
+Test Method:		"Google_Test.checkPageTitle"
+################################################################################################################################################
+[ReportManager] Target URL: "https://www.google.com/" @01-07-2022 06:39:39.0936 AM
+[ReportManager] Initial URL: "data:," @01-07-2022 06:39:40.0051 AM
+[ReportManager] Navigate to url "https://www.google.com/". @01-07-2022 06:39:41.0237 AM
+[ReportManager] Get current url "https://www.google.com/". @01-07-2022 06:39:41.0301 AM
+[ReportManager] Get current window title "Google". @01-07-2022 06:39:41.0381 AM
+[ReportManager] Get current window title "Google". @01-07-2022 06:39:41.0463 A
