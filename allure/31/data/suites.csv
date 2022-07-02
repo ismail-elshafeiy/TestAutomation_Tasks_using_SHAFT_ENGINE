@@ -1,0 +1,24 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 02 18:35:18 GMT 2022","Sat Jul 02 18:35:20 GMT 2022","1992","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed",""
+"failed","Sat Jul 02 18:38:27 GMT 2022","Sat Jul 02 18:38:27 GMT 2022","0","Suite","Test","Google_Test","Google_Test","setUp_BeforeMethods","setUp_BeforeMethods",""
+"skipped","Sat Jul 02 18:38:27 GMT 2022","Sat Jul 02 18:38:27 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchBy_text_and_index_list","searchBy_text_and_index_list",""
+"skipped","Sat Jul 02 18:38:27 GMT 2022","Sat Jul 02 18:38:27 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen",""
+"skipped","Sat Jul 02 18:38:27 GMT 2022","Sat Jul 02 18:38:27 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifyCountryIsEqual","verifyCountryIsEqual",""
+"skipped","Sat Jul 02 18:38:27 GMT 2022","Sat Jul 02 18:38:27 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","Open Mozilla Firefox
+Navigate to [https://www.google.com/]
+Search for [TestNG]
+Assert that the text of the fourth result is [TestNG Tutorial]
+Close Mozilla Firefox
+"
+"skipped","Sat Jul 02 18:38:27 GMT 2022","Sat Jul 02 18:38:27 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifySearchResults","verifySearchResults",""
+"broken","Sat Jul 02 18:35:23 GMT 2022","Sat Jul 02 18:35:27 GMT 2022","3853","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Search for [Selenium WebDriver]
+Assert that the text of the first result is [Selenium - Web Browser Automation]
+Close Google Chrome
+"
+"passed","Sat Jul 02 18:35:12 GMT 2022","Sat Jul 02 18:35:17 GMT 2022","4908","Suite","Test","Google_Test","Google_Test","SearchAndGetResultByText","SearchAndGetResultByText",""
+"passed","Sat Jul 02 18:35:21 GMT 2022","Sat Jul 02 18:35:22 GMT 2022","1903","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Assert that the page title is [Google]
+"
