@@ -24,16 +24,16 @@ public class Google_Test {
     private final ThreadLocal<JSONFileManager> jsonFileManager = new ThreadLocal<>();
 
     @BeforeClass
-    public void getTestData() {
+    public void serTestData() {
         jsonFileManager.set(new JSONFileManager(System.getProperty("googleJson")));
     }
 
     @BeforeMethod(onlyForGroups = "Firefox")
-    public void setUp_BeforeMethods_Groups() {
+    public void setUp_FireFox() {
         driver.set(DriverFactory.getDriver(DriverFactory.DriverType.DESKTOP_FIREFOX));
 
     }
-    @BeforeMethod
+    @BeforeMethod(onlyForGroups = "FromProperties")
     public void setUp_BeforeMethods() {
         driver.set(DriverFactory.getDriver());
     }
@@ -43,22 +43,16 @@ public class Google_Test {
         BrowserActions.closeCurrentWindow(driver.get());
     }
 
-    @Test
-    @Severity(SeverityLevel.CRITICAL)
-    @Link("https://www.google.com/ncr")
-    @TmsLink("Tc")
-    @Issue("Bug")
-    public void SearchAndGetResultByText() {
-        String searchKeyword = "Selenium WebDriver";
 
-        new Google_Page(driver.get()).navigateTo_googlePage()
-                .searchByTextAndIndexList(searchKeyword);
-    }
-
-    @Test
+    @Test(groups = "FromProperties")
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_001")
+    @Description("""
+            Open Google Chrome
+            Navigate to [https://www.google.com/ncr]
+            Assert that the page title is [Google]
+            """)
     public void checkPageTitle() {
         String expectedResult_pageTitle = "Google";
 
@@ -68,18 +62,16 @@ public class Google_Test {
         Assert.assertEquals(Google_Page.getTitle_Page(), expectedResult_pageTitle);
     }
 
-    @Test
+    @Test(groups = "FromProperties")
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_002")
     public void checkGoogleLogoIsDisplayed() throws IOException {
-
-        new Google_Page(driver.get()).navigateTo_googlePage()
-                .takeFullPage_screenShot(driver.get(), "FullPage_Screenshot");
+        new Google_Page(driver.get()).navigateTo_googlePage();
         Assert.assertTrue(Google_Page.isGoogleLogoDisplayed("googleLogo"));
     }
 
-    @Test
+    @Test(groups = "FromProperties")
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_003")
@@ -133,7 +125,7 @@ public class Google_Test {
                 .perform();
     }
 
-    @Test
+    @Test(groups = "FromProperties")
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_005")
@@ -154,7 +146,7 @@ public class Google_Test {
     }
 
 
-    @Test
+    @Test(groups = "FromProperties")
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://the-internet.herokuapp.com/checkboxes")
     @TmsLink("Tc_006")
@@ -168,7 +160,7 @@ public class Google_Test {
         Assert.assertTrue(actualResult_countryName.contains("Austria"));
     }
 
-    @Test
+    @Test(groups = "FromProperties")
     public void verifySearchResults() {
         new Google_Page(driver.get()).navigateTo_googlePage()
                 .searchByTextAndIndexList("Selenium WebDriver");
@@ -178,13 +170,23 @@ public class Google_Test {
         Assert.assertNotEquals(getSearchResults, "");
     }
 
-    @Test(enabled = false)
+    @Test(groups = "FromProperties")
     public void searchBy_text_and_index_list() {
         String searchKeyword = "Selenium";
         String indexInList = "2";
         new Google_Page(driver.get()).navigateTo_googlePage()
                 .searchByTestAndIndexList_autoSuggest(searchKeyword, indexInList);
 
+    }
+    @Test(groups = "FromProperties")
+    @Severity(SeverityLevel.CRITICAL)
+    @Link("https://www.google.com/ncr")
+    @TmsLink("Tc")
+    @Issue("Bug")
+    public void SearchAndGetResultByText() {
+        String searchKeyword = "Selenium WebDriver";
+        new Google_Page(driver.get()).navigateTo_googlePage()
+                .searchByTextAndIndexList(searchKeyword);
     }
 
 

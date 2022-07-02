@@ -79,37 +79,7 @@ public class Google_Page {
 
         return ElementActions.isElementDisplayed(driver, googleLogo_image);
     }
-//    @Step("Check logo is displayed?")
-//    public static boolean isGoogleLogoDisplayed(String logoName) throws IOException {
-//        String imgPath = System.getProperty("user.dir") + "/src/test/resources/testData/google_testData/getImage/actualImage/" + "googleTest.png";
-//        Shutterbug.shootElement(driver, driver.findElement(googleLogo_image)).save(imgPath);
-//        takeWebElement_screenshot(logoName);
-//        return driver.findElement(googleLogo_image).isDisplayed();
-//    }
 
-
-//
-//    public static void takeWebElement_screenshot(String screenshotName) throws IOException {
-//        WebElement element = driver.findElement(googleLogo_image);
-//        File source = element.getScreenshotAs(OutputType.FILE);
-//        File destination = new File(System.getProperty("user.dir") + "/src/test/resources/testData/google_testData/actualImage/" + screenshotName + ".png");
-//        FileHandler.copy(source, destination);
-//
-//        File image = new File(System.getProperty("user.dir") + "/src/test/resources/testData/google_testData/expectedImage/expectedGoogleLogo.png");
-//
-//        BufferedImage expectedImage = ImageIO.read(image);
-//        BufferedImage actualImage = ImageIO.read(destination);
-//        System.out.println("image " + " [ " + expectedImage + " ] ");
-//        System.out.println("actualImage" + " [ " + actualImage + " ] ");
-//        ImageDiffer imageDiffer = new ImageDiffer();
-//
-//        ImageDiff diff = imageDiffer.makeDiff(expectedImage, actualImage);
-//        if (!diff.hasDiff()) {
-//            System.out.println("Images are same");
-//        } else {
-//            System.out.println("Images are different");
-//        }
-//    }
 
     /**
      * search By text
@@ -127,7 +97,8 @@ public class Google_Page {
     /**
      * Search By text and indexList in a search list
      *
-     * @param searchKeyword *, @param indexList*
+     * @param searchKeyword *
+     * @param indexList*
      * @return self reference
      */
 
@@ -141,20 +112,6 @@ public class Google_Page {
         ElementActions.type(driver, search_textBx, searchKeyword);
         ElementActions.click(driver, findByTextAndIndexList(searchKeyword, indexList));
         return new SearchResults_Page(driver);
-    }
-
-
-    public static void takeFullPage_screenShot(WebDriver driver, String screenshotName) throws IOException {
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        File source = ts.getScreenshotAs(OutputType.FILE);
-        try {
-            String destination = System.getProperty("user.dir") + "/src/test/resources/TestsScreenshots/" + screenshotName + ".png";
-            File finalDestination = new File(destination);
-            FileUtils.copyFile(source, finalDestination);
-
-        } catch (Exception e) {
-            System.out.println("Exception while taking screenshot: " + e.getMessage());
-        }
     }
 
 }
