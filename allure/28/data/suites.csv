@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Sat Jul 02 06:39:14 GMT 2022","Sat Jul 02 06:39:14 GMT 2022","3","Suite","Test","Google_Test","Google_Test","verifySearchResults","verifySearchResults",""
+"skipped","Sat Jul 02 06:39:14 GMT 2022","Sat Jul 02 06:39:14 GMT 2022","3","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen",""
+"failed","Sat Jul 02 06:39:14 GMT 2022","Sat Jul 02 06:39:14 GMT 2022","0","Suite","Test","Google_Test","Google_Test","setUp_BeforeMethods","setUp_BeforeMethods",""
+"skipped","Sat Jul 02 06:39:14 GMT 2022","Sat Jul 02 06:39:14 GMT 2022","9","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","Open Mozilla Firefox
+Navigate to [https://www.google.com/]
+Search for [TestNG]
+Assert that the text of the fourth result is [TestNG Tutorial]
+Close Mozilla Firefox
+"
+"passed","Sat Jul 02 06:35:58 GMT 2022","Sat Jul 02 06:36:01 GMT 2022","3805","Suite","Test","Google_Test","Google_Test","SearchAndGetResultByText","SearchAndGetResultByText",""
+"passed","Sat Jul 02 06:36:07 GMT 2022","Sat Jul 02 06:36:14 GMT 2022","6658","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Search for [Selenium WebDriver]
+Assert that the text of the first result is [Selenium - Web Browser Automation]
+Close Google Chrome
+"
+"unknown","Sat Jul 02 06:35:55 GMT 2022","Sat Jul 02 06:35:55 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchBy_text_and_index_list","searchBy_text_and_index_list",""
+"skipped","Sat Jul 02 06:39:14 GMT 2022","Sat Jul 02 06:39:14 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifyCountryIsEqual","verifyCountryIsEqual",""
+"passed","Sat Jul 02 06:36:02 GMT 2022","Sat Jul 02 06:36:04 GMT 2022","1660","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed",""
+"passed","Sat Jul 02 06:36:05 GMT 2022","Sat Jul 02 06:36:06 GMT 2022","1458","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle",""
