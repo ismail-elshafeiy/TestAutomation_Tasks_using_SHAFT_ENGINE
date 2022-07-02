@@ -3,10 +3,7 @@
     "expectedResult_pageTitle": "Google"
   },
   "task2": {
-    "query": "Selenium WebDriver",
-    "indexList": "2",
-    "indexPage": "1",
-    "expectedResult_searchResult": "WebDriver - Selenium"
+    "expectedResult_logoName": "googleLogo"
   },
   "task3": {
     "query": "Selenium WebDriver",
@@ -15,15 +12,14 @@
     "expectedResult_searchResult": "WebDriver - Selenium"
   },
   "task4": {
-    "query": "Selenium WebDriver",
-    "indexList": "4",
-    "indexPage": "1",
-    "expectedResult_searchResult": "WebDriver - Selenium"
+    "query": "TestNG",
+    "indexList": "1",
+    "indexPage": "4",
+    "expectedResult_searchResult": "TestNG Tutorial"
   },
   "task5": {
-    "query": "Selenium WebDriver",
-    "indexList": "5",
-    "indexPage": "1",
+    "query": "Cucumber IO",
+    "indexPage": "2",
     "expectedResult_searchResult": "WebDriver - Selenium"
   }
 }
