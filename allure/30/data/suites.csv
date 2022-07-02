@@ -1,0 +1,24 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 02 17:19:18 GMT 2022","Sat Jul 02 17:19:19 GMT 2022","1309","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed",""
+"passed","Sat Jul 02 17:19:14 GMT 2022","Sat Jul 02 17:19:17 GMT 2022","3038","Suite","Test","Google_Test","Google_Test","SearchAndGetResultByText","SearchAndGetResultByText",""
+"skipped","Sat Jul 02 17:22:26 GMT 2022","Sat Jul 02 17:22:26 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchBy_text_and_index_list","searchBy_text_and_index_list",""
+"skipped","Sat Jul 02 17:22:26 GMT 2022","Sat Jul 02 17:22:26 GMT 2022","0","Suite","Test","Google_Test","Google_Test","verifySearchResults","verifySearchResults",""
+"skipped","Sat Jul 02 17:22:26 GMT 2022","Sat Jul 02 17:22:26 GMT 2022","1","Suite","Test","Google_Test","Google_Test","verifyCountryIsEqual","verifyCountryIsEqual",""
+"passed","Sat Jul 02 17:19:20 GMT 2022","Sat Jul 02 17:19:22 GMT 2022","1445","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Assert that the page title is [Google]
+"
+"failed","Sat Jul 02 17:22:26 GMT 2022","Sat Jul 02 17:22:26 GMT 2022","1","Suite","Test","Google_Test","Google_Test","setUp_BeforeMethods","setUp_BeforeMethods",""
+"skipped","Sat Jul 02 17:22:26 GMT 2022","Sat Jul 02 17:22:26 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen",""
+"skipped","Sat Jul 02 17:22:26 GMT 2022","Sat Jul 02 17:22:26 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","Open Mozilla Firefox
+Navigate to [https://www.google.com/]
+Search for [TestNG]
+Assert that the text of the fourth result is [TestNG Tutorial]
+Close Mozilla Firefox
+"
+"broken","Sat Jul 02 17:19:22 GMT 2022","Sat Jul 02 17:19:26 GMT 2022","3558","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","Open Google Chrome
+Navigate to [https://www.google.com/ncr]
+Search for [Selenium WebDriver]
+Assert that the text of the first result is [Selenium - Web Browser Automation]
+Close Google Chrome
+"
