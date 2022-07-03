@@ -1,0 +1,27 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jul 03 12:49:58 GMT 2022","Sun Jul 03 12:50:03 GMT 2022","4706","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the page title is [Google]
+"
+"failed","Sun Jul 03 12:50:04 GMT 2022","Sun Jul 03 12:50:09 GMT 2022","4927","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Selenium WebDriver]
+- Assert that the text of the first result is [Selenium - Web Browser Automation]
+"
+"skipped","Sun Jul 03 12:53:10 GMT 2022","Sun Jul 03 12:53:10 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Cucumber IO]
+- Navigate to the second results page
+- Assert that the link of the second result contains [https://www.linkedin.com]
+"
+"skipped","Sun Jul 03 12:53:10 GMT 2022","Sun Jul 03 12:53:10 GMT 2022","2","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","- Open Mozilla Firefox
+- Navigate to [https://www.google.com/]
+- Search for [TestNG]
+- Assert that the text of the fourth result is [TestNG Tutorial]
+- Close Mozilla Firefox
+"
+"passed","Sun Jul 03 12:49:53 GMT 2022","Sun Jul 03 12:49:57 GMT 2022","3903","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the Google logo is displayed
+"
+"failed","Sun Jul 03 12:53:10 GMT 2022","Sun Jul 03 12:53:10 GMT 2022","0","Suite","Test","Google_Test","Google_Test","setUp_FireFox","setUp_FireFox",""
