@@ -1,0 +1,27 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Sun Jul 03 18:37:28 GMT 2022","Sun Jul 03 18:37:28 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Cucumber IO]
+- Navigate to the second results page
+- Assert that the link of the second result contains [https://www.linkedin.com]
+"
+"passed","Sun Jul 03 18:34:15 GMT 2022","Sun Jul 03 18:34:17 GMT 2022","2063","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the Google logo is displayed
+"
+"failed","Sun Jul 03 18:34:23 GMT 2022","Sun Jul 03 18:34:28 GMT 2022","4863","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Selenium WebDriver]
+- Assert that the text of the first result is [Selenium - Web Browser Automation]
+"
+"skipped","Sun Jul 03 18:37:28 GMT 2022","Sun Jul 03 18:37:28 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","- Open Mozilla Firefox
+- Navigate to [https://www.google.com/]
+- Search for [TestNG]
+- Assert that the text of the fourth result is [TestNG Tutorial]
+- Close Mozilla Firefox
+"
+"passed","Sun Jul 03 18:34:18 GMT 2022","Sun Jul 03 18:34:22 GMT 2022","4137","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the page title is [Google]
+"
+"failed","Sun Jul 03 18:37:28 GMT 2022","Sun Jul 03 18:37:28 GMT 2022","0","Suite","Test","Google_Test","Google_Test","setUp_FireFox","setUp_FireFox",""

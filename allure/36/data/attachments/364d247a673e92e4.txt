@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 5" test cases in the current suite
+Test Method:		"Google_Test.checkGoogleLogoIsDisplayed"
+################################################################################################################################################
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @03-07-2022 18:34:15.0177 PM
+[ReportManager] Initial URL: "data:," @03-07-2022 18:34:15.0353 PM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @03-07-2022 18:34:16.0725 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/main/resources/dynamicObjectRepository/GoogleChrome/Google_Test_checkGoogleLogoIsDisplayed_By_xpath_img_alt_Google.png"". @03-07-2022 18:34:16.0756 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/main/resources/dynamicObjectRepository/GoogleChrome/Google_Test_checkGoogleLogoIsDisplayed_By_xpath_img_alt_Google.png"". @03-07-2022 18:34:17.0207 PM
+[ReportManager] Passing the test and saving a reference image @03-07-2022 18:34:17.0208 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "src/main/resources/dynamicObjectRepository/GoogleChrome/Google_Test_checkGoogleLogoIsDisplayed_By_xpath_img_alt_Google.png"". @03-07-2022 18:34:17.0209 PM
+[ReportManager] File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "/home/runner/work/TestAutomation_Tasks_using_SHAFT_ENGINE/TestAutomation_Tasks_using_SHAFT_ENGINE/src/main/resources/dynamicObjectRepository/GoogleChrome/Google_Test_checkGoogleLogoIsDisplayed_By_xpath_img_alt_Google.png"". @03-07-2022 18:34:17.0210 PM
+[ReportManager] Verification Passed: Assert that the Google logo is displayed @03-07-2022 18:34:17.0212 PM
+[ReportManager] Successfully created attachment "Validation Test Data - Actual Screenshot" @03-07-2022 18:34:17.0213 P
