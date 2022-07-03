@@ -1,0 +1,27 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Jul 03 06:39:49 GMT 2022","Sun Jul 03 06:39:49 GMT 2022","0","Suite","Test","Google_Test","Google_Test","setUp_FireFox","setUp_FireFox",""
+"skipped","Sun Jul 03 06:39:49 GMT 2022","Sun Jul 03 06:39:49 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Cucumber IO]
+- Navigate to the second results page
+- Assert that the link of the second result contains [https://www.linkedin.com]
+"
+"skipped","Sun Jul 03 06:39:49 GMT 2022","Sun Jul 03 06:39:49 GMT 2022","1","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","- Open Mozilla Firefox
+- Navigate to [https://www.google.com/]
+- Search for [TestNG]
+- Assert that the text of the fourth result is [TestNG Tutorial]
+- Close Mozilla Firefox
+"
+"failed","Sun Jul 03 06:36:44 GMT 2022","Sun Jul 03 06:36:49 GMT 2022","4591","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Selenium WebDriver]
+- Assert that the text of the first result is [Selenium - Web Browser Automation]
+"
+"passed","Sun Jul 03 06:36:39 GMT 2022","Sun Jul 03 06:36:43 GMT 2022","3990","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the page title is [Google]
+"
+"passed","Sun Jul 03 06:36:35 GMT 2022","Sun Jul 03 06:36:37 GMT 2022","2302","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the Google logo is displayed
+"

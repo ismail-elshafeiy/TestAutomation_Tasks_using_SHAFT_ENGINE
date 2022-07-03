@@ -1,0 +1,14 @@
+
+################################################################################################################################################
+Starting Execution:	"2 out of 5" test cases in the current suite
+Test Method:		"Google_Test.checkPageTitle"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @03-07-2022 06:36:39.0176 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @03-07-2022 06:36:39.0179 AM
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @03-07-2022 06:36:40.0841 AM
+[ReportManager] Initial URL: "data:," @03-07-2022 06:36:41.0024 AM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @03-07-2022 06:36:42.0384 AM
+[ReportManager] Get current url "https://www.google.com/". @03-07-2022 06:36:42.0481 AM
+[ReportManager] Get current window title "Google". @03-07-2022 06:36:42.0555 AM
+[ReportManager] Verification Passed: Assert that the page title is [Google] @03-07-2022 06:36:43.0143 AM
+[ReportManager] Successfully created attachment "Screenshot - 1656830202758_checkPageTitle_ValidateBrowserAttribute_passed" @03-07-2022 06:36:43.0162 A
