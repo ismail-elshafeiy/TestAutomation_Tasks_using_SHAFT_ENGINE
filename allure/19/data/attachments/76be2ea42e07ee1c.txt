@@ -1,9 +1,0 @@
-
-################################################################################################################################################
-Starting Execution:	"2 out of 8" test cases in the current suite
-Test Method:		"Google_Test.checkGoogleLogoIsDisplayed"
-################################################################################################################################################
-[ReportManager] Target URL: "https://www.google.com/" @30-06-2022 02:36:08.0440 AM
-[ReportManager] Initial URL: "data:," @30-06-2022 02:36:08.0562 AM
-[ReportManager] Navigate to url "https://www.google.com/". @30-06-2022 02:36:09.0638 AM
-[ReportManager] Is element displayed. @30-06-2022 02:36:10.0032 A

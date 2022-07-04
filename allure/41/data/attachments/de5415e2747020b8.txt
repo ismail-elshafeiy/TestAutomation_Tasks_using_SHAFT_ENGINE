@@ -1,0 +1,20 @@
+
+################################################################################################################################################
+Starting Execution:	"5 out of 5" test cases in the current suite
+Test Method:		"Google_Test.searchForSecondResultAndOpen"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:40:24.0695 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:40:24.0695 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:40:24.0755 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:40:24.0755 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:40:24.0801 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:40:24.0801 AM
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @04-07-2022 05:40:24.0839 AM
+[ReportManager] Initial URL: "data:," @04-07-2022 05:40:25.0190 AM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @04-07-2022 05:40:26.0408 AM
+[ReportManager] Type "Cucumber IO". @04-07-2022 05:40:27.0121 AM
+[ReportManager] Key press "ENTER". @04-07-2022 05:40:28.0311 AM
+[ReportManager] Click "By.xpath: (//div[@data-header-feature=0]//h3)[2]". @04-07-2022 05:40:28.0886 AM
+[ReportManager] Get current url "https://en.wikipedia.org/wiki/Cucumber_(software)". @04-07-2022 05:40:29.0425 AM
+[ReportManager] Verification Failed: Assert that the link of the second result contains [https://www.linkedin.com] @04-07-2022 05:40:29.0855 AM
+[ReportManager] Successfully created attachment "Screenshot - 1656913229690_searchForSecondResultAndOpen_ValidateBrowserAttribute_failed" @04-07-2022 05:40:29.0857 A
