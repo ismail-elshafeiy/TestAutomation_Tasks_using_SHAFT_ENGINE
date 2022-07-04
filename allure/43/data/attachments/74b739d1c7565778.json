@@ -1,0 +1,25 @@
+{
+  "task1": {
+    "expectedResult_pageTitle": "Google"
+  },
+  "task2": {
+    "expectedResult_logoName": "googleLogo"
+  },
+  "task3": {
+    "query": "Selenium WebDriver",
+    "indexList": "3",
+    "indexPage": "1",
+    "expectedResult_searchResult": "WebDriver - Selenium"
+  },
+  "task4": {
+    "query": "TestNG",
+    "indexList": "1",
+    "indexPage": "4",
+    "expectedResult_searchResult": "TestNG Tutorial"
+  },
+  "task5": {
+    "query": "Cucumber IO",
+    "indexPage": "2",
+    "expectedResult_searchResult": "WebDriver - Selenium"
+  }
+}
