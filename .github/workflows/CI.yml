@@ -7,12 +7,11 @@ on:
   push:
     branches: [ master ]
   pull_request:
-    # The branches below must be a subset of the branches above
+
     branches: [ master ]
   schedule:
     - cron: '15 */6 * * *'
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
     name: Test on Ubuntu
@@ -21,8 +20,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-      #- name: Set up Zalenium
-      #  run: docker-compose -f docker-compose_zalenium.yml up --force-recreate -d
       - name: Set up Native Selenium Grid
         run: docker-compose -f src/test/resources/docker-compose.yml up --scale chrome=4 --remove-orphans -d
       - name: Set up JDK 17
@@ -34,7 +31,7 @@ jobs:
         run: docker ps
       - name: Run all tests
         continue-on-error: true
-        run: mvn test -DexecutionAddress="localhost:4444" -DtargetOperatingSystem="Linux-64" -DmaximumPerformanceMode="2" -DtargetBrowserName="GoogleChrome"
+        run: mvn test -DexecutionAddress="localhost:4444" -DtargetOperatingSystem="Linux-64" -DmaximumPerformanceMode="2" -DtargetBrowserName="GoogleChrome" -DgenerateExtentReports="true" -DcleanExtentReportsDirectoryBeforeExecution="true"
       - name: Get Allure history
         uses: actions/checkout@v3
         if: always()
@@ -42,6 +39,22 @@ jobs:
         with:
           ref: gh-pages
           path: gh-pages
+
+  - name: Generate Allure Report on Linux
+        uses: simple-elf/allure-report-action@master
+        if: runner.os == 'Linux'
+        id: allure-report
+        with:
+        gh_pages: gh-pages
+        allure_results: allure-results
+        allure_report: allure-report
+        allure_history: allure-history
+        subfolder: allure/${{ runner.os }}/Web
+        keep_reports: 20
+        github_repo: ${{ github.repository }}
+        github_repo_owner: ismail-elshafeiy
+        github_run_num: ${{ github.run_number }}
+
       - name: Generate Allure Report with history
         uses: simple-elf/allure-report-action@master
         if: always()
@@ -52,6 +65,7 @@ jobs:
           allure_report: allure-report
           allure_history: allure-history
           subfolder: allure
+
       - name: Deploy Allure report to Github Pages
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:
@@ -59,6 +73,7 @@ jobs:
           publish_dir: allure-history/allure
           destination_dir: allure
           publish_branch: gh-pages
+
       - name: Post the link to the Allure report
         if: always()
         continue-on-error: true
@@ -68,4 +83,4 @@ jobs:
           context: 'Allure Test Execution Report'
           state: 'success'
           sha: ${{ github.event.pull_request.head.sha }}
-          target_url: https://ismail-elshafeiy.github.io/TestAutomation/allure/${{ runner.os }}/Web/${{ github.run_number }}
+          target_url: https://ismail-elshafeiy/TestAutomation_Tasks_using_SHAFT_ENGINE/allure/${{ runner.os }}/Web/${{ github.run_number }}
