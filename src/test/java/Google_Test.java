@@ -23,29 +23,33 @@ public class Google_Test {
     private final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     private final ThreadLocal<JSONFileManager> jsonFileManager = new ThreadLocal<>();
 
-    @BeforeClass
-    public void serTestData() {
-        jsonFileManager.set(new JSONFileManager(System.getProperty("googleJson")));
-    }
+//    @BeforeClass
+//    public void serTestData() {
+//        jsonFileManager.set(new JSONFileManager(System.getProperty("googleJson")));
+//    }
 
-    @BeforeMethod(onlyForGroups = "Firefox")
-    public void setUp_FireFox() {
-        driver.set(DriverFactory.getDriver(DriverFactory.DriverType.DESKTOP_FIREFOX));
+//    @BeforeMethod(onlyForGroups = "Firefox")
+//    public void setUp_FireFox() {
+//
+//        driver.set(DriverFactory.getDriver());
+//
+////        driver.set(DriverFactory.getDriver(DriverFactory.DriverType.DESKTOP_FIREFOX));
+//
+//    }
 
-    }
-
-    @BeforeMethod(onlyForGroups = "FromProperties")
+    @BeforeMethod
     public void setUp_BeforeMethods() {
+        jsonFileManager.set(new JSONFileManager(System.getProperty("googleJson")));
         driver.set(DriverFactory.getDriver());
     }
 
-    @AfterMethod()
+    @AfterMethod
     public void tearDown(ITestResult result) {
         BrowserActions.closeCurrentWindow(driver.get());
     }
 
 
-    @Test(groups = "FromProperties")
+    @Test
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_001")
@@ -67,7 +71,7 @@ public class Google_Test {
                 .perform();
     }
 
-    @Test(groups = "FromProperties")
+    @Test
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_002")
@@ -87,7 +91,7 @@ public class Google_Test {
 
     }
 
-    @Test(groups = "FromProperties")
+    @Test
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_003")
@@ -113,7 +117,7 @@ public class Google_Test {
                 .perform();
     }
 
-    @Test(groups = "Firefox")
+    @Test
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_004")
@@ -140,7 +144,7 @@ public class Google_Test {
                 .perform();
     }
 
-    @Test(groups = "FromProperties")
+    @Test
     @Severity(SeverityLevel.CRITICAL)
     @Link("https://www.google.com/ncr")
     @TmsLink("Tc_005")
