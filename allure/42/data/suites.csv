@@ -1,0 +1,26 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 04 05:52:27 GMT 2022","Mon Jul 04 05:52:37 GMT 2022","10448","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the page title is [Google]
+"
+"failed","Mon Jul 04 05:52:25 GMT 2022","Mon Jul 04 05:52:39 GMT 2022","13122","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","- Open Mozilla Firefox
+- Navigate to [https://www.google.com/]
+- Search for [TestNG]
+- Assert that the text of the fourth result is [TestNG Tutorial]
+- Close Mozilla Firefox
+"
+"broken","Mon Jul 04 05:52:30 GMT 2022","Mon Jul 04 05:52:39 GMT 2022","8238","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Selenium WebDriver]
+- Assert that the text of the first result is [Selenium - Web Browser Automation]
+"
+"broken","Mon Jul 04 05:52:39 GMT 2022","Mon Jul 04 05:52:44 GMT 2022","5102","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Cucumber IO]
+- Navigate to the second results page
+- Assert that the link of the second result contains [https://www.linkedin.com]
+"
+"broken","Mon Jul 04 05:52:28 GMT 2022","Mon Jul 04 05:53:00 GMT 2022","31831","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the Google logo is displayed
+"

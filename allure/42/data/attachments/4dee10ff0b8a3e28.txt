@@ -1,0 +1,18 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 5" test cases in the current suite
+Test Method:		"Google_Test.searchForFourthResult"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:52:26.0021 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:52:26.0021 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:52:29.0324 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:52:29.0324 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:52:29.0413 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:52:29.0413 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:52:29.0473 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 05:52:29.0473 AM
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @04-07-2022 05:52:29.0516 AM
+[ReportManager] Initial URL: "data:," @04-07-2022 05:52:31.0355 AM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @04-07-2022 05:52:35.0577 AM
+[ReportManager] Type failed "Expected to type: "TestNG", but ended up with: "Selenium WebDriver"". @04-07-2022 05:52:39.0082 AM
+[ReportManager] Successfully created attachment "Screenshot - 1656913958812_searchForFourthResult_Type_passed" @04-07-2022 05:52:39.0091 A
