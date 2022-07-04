@@ -1,0 +1,312 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: "SHAFT Engine v6.2.20220624"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0272 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0273 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0273 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/google_testData/google.json". @04-07-2022 04:42:05.0317 AM
+[ReportManager] Successfully created attachment "Test Data - JSON" @04-07-2022 04:42:05.0317 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @04-07-2022 04:42:05.0327 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @04-07-2022 04:42:05.0328 AM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @04-07-2022 04:42:05.0347 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @04-07-2022 04:42:05.0351 AM
+[ReportManager] Successfully Opened "GoogleChrome". @04-07-2022 04:42:07.0800 A
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0277 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0277 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0277 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/google_testData/google.json". @04-07-2022 04:42:05.0323 AM
+[ReportManager] Successfully created attachment "Test Data - JSON" @04-07-2022 04:42:05.0324 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @04-07-2022 04:42:07.0998 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @04-07-2022 04:42:07.0998 AM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @04-07-2022 04:42:07.0999 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @04-07-2022 04:42:08.0000 AM
+[ReportManager] Successfully Opened "GoogleChrome". @04-07-2022 04:42:09.0279 A
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0275 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0275 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0275 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/google_testData/google.json". @04-07-2022 04:42:05.0320 AM
+[ReportManager] Successfully created attachment "Test Data - JSON" @04-07-2022 04:42:05.0323 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @04-07-2022 04:42:09.0426 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @04-07-2022 04:42:09.0426 AM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @04-07-2022 04:42:09.0427 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @04-07-2022 04:42:09.0427 AM
+[ReportManager] Successfully Opened "GoogleChrome". @04-07-2022 04:42:11.0111 A
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0282 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0282 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:05.0282 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/google_testData/google.json". @04-07-2022 04:42:05.0317 AM
+[ReportManager] Successfully created attachment "Test Data - JSON" @04-07-2022 04:42:05.0321 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @04-07-2022 04:42:11.0267 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @04-07-2022 04:42:11.0267 AM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @04-07-2022 04:42:11.0268 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @04-07-2022 04:42:11.0268 AM
+[ReportManager] Successfully Opened "GoogleChrome". @04-07-2022 04:42:13.0305 A
+
+################################################################################################################################################
+Starting Execution:	"3 out of 5" test cases in the current suite
+Test Method:		"Google_Test.checkPageTitle"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:11.0271 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:11.0272 AM
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @04-07-2022 04:42:13.0012 AM
+[ReportManager] Initial URL: "data:," @04-07-2022 04:42:13.0516 AM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @04-07-2022 04:42:18.0036 AM
+[ReportManager] Get current url "https://www.google.com/". @04-07-2022 04:42:18.0248 AM
+[ReportManager] Get current window title "Google". @04-07-2022 04:42:18.0493 AM
+[ReportManager] Verification Passed: Assert that the page title is [Google] @04-07-2022 04:42:19.0724 AM
+[ReportManager] Successfully created attachment "Screenshot - 1656909738891_checkPageTitle_ValidateBrowserAttribute_passed" @04-07-2022 04:42:19.0727 A
+
+################################################################################################################################################
+Starting Execution:	"4 out of 5" test cases in the current suite
+Test Method:		"Google_Test.searchForFourthResult"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0499 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0499 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0561 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0562 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0610 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0610 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0640 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0641 AM
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @04-07-2022 04:42:13.0680 AM
+[ReportManager] Initial URL: "data:," @04-07-2022 04:42:14.0071 AM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @04-07-2022 04:42:18.0082 AM
+[ReportManager] Type failed "Expected to type: "TestNG", but ended up with: "Selenium WebDriver"". @04-07-2022 04:42:20.0835 AM
+[ReportManager] Successfully created attachment "Screenshot - 1656909740622_searchForFourthResult_Type_passed" @04-07-2022 04:42:20.0836 A
+
+################################################################################################################################################
+Starting Execution:	"1 out of 5" test cases in the current suite
+Test Method:		"Google_Test.checkGoogleLogoIsDisplayed"
+################################################################################################################################################
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @04-07-2022 04:42:08.0318 AM
+[ReportManager] Initial URL: "data:," @04-07-2022 04:42:08.0645 AM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @04-07-2022 04:42:12.0341 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/main/resources/dynamicObjectRepository/GoogleChrome/Google_Test_checkGoogleLogoIsDisplayed_By_xpath_img_alt_Google.png"". @04-07-2022 04:42:12.0461 AM
+[ReportManager] org.openqa.selenium.TimeoutException:
+Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$790/0x00000008014d5aa0@4cadcf4d (tried for 25 second(s) with 1000 milliseconds interval)
+org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:90)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:33)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1500)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:566)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:248)
+com.shaft.validation.ValidationsHelper.validateElementMatches(ValidationsHelper.java:496)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:140)
+Google_Test.checkGoogleLogoIsDisplayed(Google_Test.java:90)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+
+Caused by: org.openqa.selenium.NoSuchElementException:
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='Google']"}
+  (Session info: headless chrome=101.0.4951.41)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'fv-az126-874', ip: '10.1.0.143', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1031-azure', java.version: '17.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9679f484102ba3792b5aea6bf7b3e889, findElement {using=xpath, value=//img[@alt='Google']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.DCRvd3}, goog:chromeOptions: {debuggerAddress: localhost:43847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.5:4444/sessio..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9679f484102ba3792b5aea6bf7b3e889
+jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+com.shaft.gui.element.ElementActionsHelper.lambda$waitForElementPresence$0(ElementActionsHelper.java:93)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:90)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:33)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1500)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:566)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:248)
+com.shaft.validation.ValidationsHelper.validateElementMatches(ValidationsHelper.java:496)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:140)
+Google_Test.checkGoogleLogoIsDisplayed(Google_Test.java:90)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833) @04-07-2022 04:42:38.0599 AM
+[ReportManager] Verification Failed: The Element located by "By.xpath: (//div[@data-header-feature=0]//h3)[1]" text contains "WebDriver - Selenium". @04-07-2022 04:42:39.0201 AM
+[ReportManager] Successfully created attachment "Validation Test Data - Actual Screenshot" @04-07-2022 04:42:39.0202 A
+
+################################################################################################################################################
+Starting Execution:	"2 out of 5" test cases in the current suite
+Test Method:		"Google_Test.searchAndGetFirstResult"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:09.0467 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:09.0467 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0016 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0017 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0088 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0092 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0163 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:42:13.0164 AM
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @04-07-2022 04:42:13.0210 AM
+[ReportManager] Initial URL: "data:," @04-07-2022 04:42:13.0628 AM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @04-07-2022 04:42:17.0922 AM
+[ReportManager] Type "Selenium WebDriver". @04-07-2022 04:42:20.0836 AM
+[ReportManager] Click "By.xpath: (//li[@role='presentation'])[3]". @04-07-2022 04:42:22.0028 AM
+[ReportManager] org.openqa.selenium.TimeoutException:
+Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$790/0x00000008014d5aa0@22840c87 (tried for 25 second(s) with 1000 milliseconds interval)
+org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:90)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:41)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1504)
+com.shaft.gui.element.WebDriverElementActions.identifyUniqueElement(WebDriverElementActions.java:1552)
+com.shaft.gui.element.WebDriverElementActions.identifyUniqueElement(WebDriverElementActions.java:1333)
+com.shaft.gui.element.WebDriverElementActions.getText(WebDriverElementActions.java:681)
+com.shaft.gui.element.ElementActions.getText(ElementActions.java:326)
+com.shaft.validation.ValidationsHelper.validateElementAttribute(ValidationsHelper.java:235)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:141)
+Google_Test.searchAndGetFirstResult(Google_Test.java:117)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+
+Caused by: org.openqa.selenium.NoSuchElementException:
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-header-feature=0]//h3)[1]"}
+  (Session info: headless chrome=101.0.4951.41)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'fv-az126-874', ip: '10.1.0.143', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-1031-azure', java.version: '17.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6125d6bee49f8bd9d91e85d40ecb23d5, findElement {using=xpath, value=(//div[@data-header-feature=0]//h3)[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /tmp/.com.google.Chrome.T9GHXR}, goog:chromeOptions: {debuggerAddress: localhost:34981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6125d6bee49f8bd9d91e85d40ecb23d5
+jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+com.shaft.gui.element.ElementActionsHelper.lambda$waitForElementPresence$0(ElementActionsHelper.java:93)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:90)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:41)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1504)
+com.shaft.gui.element.WebDriverElementActions.identifyUniqueElement(WebDriverElementActions.java:1552)
+com.shaft.gui.element.WebDriverElementActions.identifyUniqueElement(WebDriverElementActions.java:1333)
+com.shaft.gui.element.WebDriverElementActions.getText(WebDriverElementActions.java:681)
+com.shaft.gui.element.ElementActions.getText(ElementActions.java:326)
+com.shaft.validation.ValidationsHelper.validateElementAttribute(ValidationsHelper.java:235)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:141)
+Google_Test.searchAndGetFirstResult(Google_Test.java:117)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833) @04-07-2022 04:42:47.0580 AM
+[ReportManager] Identify unique element failed "zero elements found matching this locator "By.xpath: (//div[@data-header-feature=0]//h3)[1]".". @04-07-2022 04:42:47.0939 AM
+[ReportManager] Successfully created attachment "Screenshot - 1656909767770_searchAndGetFirstResult_Identify unique element_failed" @04-07-2022 04:42:47.0940 AM
+[ReportManager] Assertion Failed: The Element located by "By.xpath: (//div[@data-header-feature=0]//h3)[1]" text contains "WebDriver - Selenium". @04-07-2022 04:42:47.0944 A
+[ReportManager] Close current window. @04-07-2022 04:45:20.0297 AM
+[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @04-07-2022 04:45:20.0299 A
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0312 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0312 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0312 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/google_testData/google.json". @04-07-2022 04:45:20.0313 AM
+[ReportManager] Successfully created attachment "Test Data - JSON" @04-07-2022 04:45:20.0313 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @04-07-2022 04:45:20.0313 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @04-07-2022 04:45:20.0313 AM
+[ReportManager] Attempting to run remotely on: "Linux-64 | GoogleChrome | http://localhost:4444/wd/hub", Headless Execution. @04-07-2022 04:45:20.0314 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless, --start-maximized], extensions: [], prefs: {download.default_directory: /home/runner/work/TestAutom..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, platformName: LINUX, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify} @04-07-2022 04:45:20.0314 AM
+[ReportManager] Successfully Opened "GoogleChrome". @04-07-2022 04:45:20.0602 A
+[ReportManager] Close current window. @04-07-2022 04:45:20.0879 AM
+[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @04-07-2022 04:45:20.0880 A
+[ReportManager] Close current window. @04-07-2022 04:45:21.0177 AM
+[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @04-07-2022 04:45:21.0178 A
+[ReportManager] Close current window. @04-07-2022 04:45:22.0961 AM
+[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @04-07-2022 04:45:22.0978 A
+
+################################################################################################################################################
+Starting Execution:	"5 out of 5" test cases in the current suite
+Test Method:		"Google_Test.searchForSecondResultAndOpen"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0729 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0729 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0757 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0758 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0798 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/google_testData/google.json"". @04-07-2022 04:45:20.0798 AM
+[ReportManager] Target URL: "https://www.google.com/ncr", and after redirection: "https://www.google.com" @04-07-2022 04:45:20.0812 AM
+[ReportManager] Initial URL: "data:," @04-07-2022 04:45:21.0042 AM
+[ReportManager] Navigate to url "https://www.google.com/ncr". @04-07-2022 04:45:23.0169 AM
+[ReportManager] Type "Cucumber IO". @04-07-2022 04:45:23.0811 AM
+[ReportManager] Key press "ENTER". @04-07-2022 04:45:24.0896 AM
+[ReportManager] Click "By.xpath: (//div[@data-header-feature=0]//h3)[2]". @04-07-2022 04:45:25.0293 AM
+[ReportManager] Get current url "https://en.wikipedia.org/wiki/Cucumber_(software)". @04-07-2022 04:45:25.0947 AM
+[ReportManager] Verification Failed: Assert that the link of the second result contains [https://www.linkedin.com] @04-07-2022 04:45:26.0364 AM
+[ReportManager] Successfully created attachment "Screenshot - 1656909926180_searchForSecondResultAndOpen_ValidateBrowserAttribute_failed" @04-07-2022 04:45:26.0365 A
+[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @04-07-2022 04:45:26.0496 AM
+[ReportManager] Close current window. @04-07-2022 04:45:26.0641 AM
+[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @04-07-2022 04:45:26.0642 A
+[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log" @04-07-2022 04:45:26.0660 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.2.20220624"
+SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################

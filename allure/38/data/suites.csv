@@ -1,0 +1,26 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Jul 04 04:42:08 GMT 2022","Mon Jul 04 04:42:39 GMT 2022","30968","Suite","Test","Google_Test","Google_Test","checkGoogleLogoIsDisplayed","checkGoogleLogoIsDisplayed","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the Google logo is displayed
+"
+"failed","Mon Jul 04 04:45:20 GMT 2022","Mon Jul 04 04:45:26 GMT 2022","5651","Suite","Test","Google_Test","Google_Test","searchForSecondResultAndOpen","searchForSecondResultAndOpen","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Cucumber IO]
+- Navigate to the second results page
+- Assert that the link of the second result contains [https://www.linkedin.com]
+"
+"failed","Mon Jul 04 04:42:13 GMT 2022","Mon Jul 04 04:42:20 GMT 2022","7391","Suite","Test","Google_Test","Google_Test","searchForFourthResult","searchForFourthResult","- Open Mozilla Firefox
+- Navigate to [https://www.google.com/]
+- Search for [TestNG]
+- Assert that the text of the fourth result is [TestNG Tutorial]
+- Close Mozilla Firefox
+"
+"failed","Mon Jul 04 04:42:09 GMT 2022","Mon Jul 04 04:42:47 GMT 2022","38504","Suite","Test","Google_Test","Google_Test","searchAndGetFirstResult","searchAndGetFirstResult","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Search for [Selenium WebDriver]
+- Assert that the text of the first result is [Selenium - Web Browser Automation]
+"
+"passed","Mon Jul 04 04:42:11 GMT 2022","Mon Jul 04 04:42:19 GMT 2022","8537","Suite","Test","Google_Test","Google_Test","checkPageTitle","checkPageTitle","- Open Google Chrome
+- Navigate to [https://www.google.com/ncr]
+- Assert that the page title is [Google]
+"
