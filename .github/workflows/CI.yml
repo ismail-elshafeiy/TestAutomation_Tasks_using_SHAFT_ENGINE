@@ -68,4 +68,4 @@ jobs:
           context: 'Allure Test Execution Report'
           state: 'success'
           sha: ${{ github.event.pull_request.head.sha }}
-          target_url: https://ismail-elshafeiy/TestAutomation_Tasks_using_SHAFT_ENGINE/allure/${{ runner.os }}/Web/${{ github.run_number }}
+          target_url: https://ismail-elshafeiy.github.io/TestAutomation_Tasks_using_SHAFT_ENGINE/allure/${{ runner.os }}/Web/${{ github.run_number }}
