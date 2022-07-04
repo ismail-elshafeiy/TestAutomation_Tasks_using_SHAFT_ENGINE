@@ -12,6 +12,7 @@ on:
   schedule:
     - cron: '15 */6 * * *'
 
+
 jobs:
   build:
     name: Test on Ubuntu
